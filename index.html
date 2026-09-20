@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>AnimeAura</title>
+        <style>
+            *{
+                margin: 0;
+                padding:0;
+                
+            }
+
+            /*--------------------------Body---------------*/
+
+            body{
+                color:white;
+                background-image:url(AnimeAuraBK.png);
+                background-size:cover;
+                background-repeat:no-repeat;
+                background-attachment:fixed;
+                
+
+            }
+
+            /*-----------------------Nav Bar------------*/
+
+            nav{
+                display:flex;
+                align-items:center;                 
+                background-color:black;
+            }
+
+            nav ul {
+                display:flex;
+                justify-content:space-between;
+                gap:40px;
+                margin:auto 30px auto auto;               
+            }
+
+             
+            nav ul li a{
+                text-decoration:none;
+                font-weight:bold;
+                color:white;
+            }
+
+            nav ul li a:hover{
+                color:rgb(210, 8, 210);
+            }
+
+            /*--------------------------------Home-------------------------*/
+
+            #Home{
+                text-align: center;
+            }
+            .Main{
+                
+                padding:60px;
+                margin:150px 150px 0px 150px;
+            }
+
+            .Main>h1{
+                font-size:60px;
+                padding-bottom:40px;
+            }
+
+            .Main>p{
+                line-height:30px;
+                font-size:30px
+            }
+
+            .more{
+                display:inline-block;
+                padding:20px;
+                margin-bottom:140px;
+            }
+
+            .more a button{
+                padding:20px;
+                background-color:rgb(223, 79, 223);
+                border:3px solid black;
+                border-radius:100px;
+                box-sizing: border-box;
+                font-size:16px;
+                border-top:6px solid black;
+                
+            }
+            
+            /*---------------------------#Trending , #MTP----------------------*/
+
+            .title{
+                color:rgb(253, 182, 253);
+                text-align:center;
+                padding-top:30px;
+                
+            }
+
+            #Trending , #MTP{
+                margin:auto;
+                display:flex;
+                gap:40px;
+                flex-wrap: wrap;
+                padding:30px;
+                margin-left:40px;
+            }
+
+           /*---------------------------.anime-------------*/
+
+            .anime{
+                text-align:center;
+                border:2px solid purple;
+                margin:20px;
+                
+            }
+
+            .anime a{
+                text-decoration:none;
+                color:grey;
+            }
+
+            .anime a img{
+                width:200px;
+                height:210px;
+                
+            }
+
+
+            #about{
+                background-color: #e393e3;
+                color:black;
+                padding:30px;
+                margin:100px;
+                border-radius: 30px;
+                line-height:45px;
+                text-align:justify;
+            }
+
+            #about>h1{
+                padding-bottom:30px;
+            }
+            #about address strong{
+                font-size:26px;
+            }
+
+            #about address{
+                font-size:24px;
+                padding-left:40px;
+            }
+
+            #about address p{
+                font-size:20px;
+                line-height:36px;
+                margin-bottom:15px;
+                text-indent:50px;
+            }
+
+            /*-----------------------Legal Info-----------------------*/
+
+            #info{
+                background-color:#e393e3;
+                color:black;
+                margin:100px;
+                padding:35px;
+                border-radius:30px;
+                line-height:1.8;
+            }
+
+            #info h1{
+                text-align:center;
+                margin-bottom:25px;
+                font-size:32px;
+            }
+
+            #info p{
+                font-size:18px;
+                margin-bottom:20px;
+                text-align:justify;
+            }
+
+            #info strong{
+                color:#7b0080;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <nav>
+            <img src="AnimeAuraLogo.png" width="40px" height="40px" style="padding:10px">
+            <h2>AnimeAura</h2>
+            <ul type="none">
+                <li><a href="#Trending">Trending</a></li>
+                <li><a href="#MTP">My Top Picks</a></li>
+                <li><a href="#about">About <Menu:context></Menu:context></a></li>
+                <li><a href="#info">Legal Info</a></li>
+            </ul>
+        </nav>
+
+        <div id="Home">
+
+            <section class="Main">
+                <h1>Welcome to AnimeAura</h1>
+                <p>
+                    Discover amazing anime, explore trending series, find your next favorite
+                    character, and dive into a world full of stories, action and adventure.
+                </p>
+            </section>
+
+            <section class="more">
+                <a href="#Trending"><button >Trending Animes</button></a>
+            </section>
+
+            <section class="more">
+                <a href="#MTP"><button >My Top Picks</button></a>
+            </section>
+        </div>
+
+        <h1 class="title">Trending Animes</h1>
+        
+        <div id="Trending">
+            
+            <section class="anime">
+                <a href="#">
+                    <img src="images/dbs.jpg">
+                    <h3>Dragon Ball Super</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/op.jpg">
+                    <h3>One Piece</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/Naruto.jpg">
+                    <h3>Naruto</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/bleach.jpg">
+                    <h3>Bleach</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/aot.jpg">
+                    <h3>Attack on Titan</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/tensura.jpg">
+                    <h3>Tensura</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/rezero.jpg">
+                    <h3>ReZero</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/eits.jpg">
+                    <h3>Eminence in the Shadow</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/angel.jpg">
+                    <h3>The Angel Next Door...</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/fragments.jpg">
+                    <h3>The Fragrant Flower...</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/sl.jpg">
+                    <h3>Solo Leveling</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/frieren.jpg">
+                    <h3>Frieren: Beyond Jour...</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/ds.jpg">
+                    <h3>Demon Slayer</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="D:/images/mha.jpg">
+                    <h3>My Hero Academia</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/clover.jpg">
+                    <h3>Black Clover</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/hunter.jpg">
+                    <h3>Hunter x Hunter</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/one.jpg">
+                    <h3>One Punch Man</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/chainsaw.jpg">
+                    <h3>Chainsaw Man</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/ghoul.jpg">
+                    <h3>Tokyo Ghoul</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/revengers.jpg">
+                    <h3>Tokyo Revengers</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/family.jpg">
+                    <h3>Spy x Family</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/haikyuu.jpg">
+                    <h3>Haikyuu!!</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/lock.jpg">
+                    <h3>Blue Lock</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/star.jpg">
+                    <h3>My Star</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/fairy.jpg">
+                    <h3>Fairy Tail</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/sao.jpg">
+                    <h3>Sword Art Online</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/Fullmetal.jpg">
+                    <h3>Fullmetal Alchemist</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/jojo.jpg">
+                    <h3>JoJo's Bizarre Adventure</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/neon.jpg">
+                    <h3>Neon Genesis Evangelion</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/gate.jpg">
+                    <h3>Steins Gate</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/classroom.jpg">
+                    <h3>Assassination Classroom</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/stone.jpg">
+                    <h3>Dr. Stone</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/saga.png">
+                    <h3>Vinland Saga</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/overlord.jpg">
+                    <h3>Overlord</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/mushoku.jpg">
+                    <h3>Mushoku Tensei</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/konosuba.jpg">
+                    <h3>KonoSuba</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/wwy.jpg">
+                    <h3>Wheathering with you</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/name.jpg">
+                    <h3>Your Name</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/voice.jpg">
+                    <h3>A Silent Voice</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/suzume.jpg">
+                    <h3>Suzume</h3>
+                </a>
+            </section>
+            
+        </div>
+
+        <h1 class="title">My Top Pics</h1>
+
+        <div id="MTP">
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/dbs.jpg">
+                    <h3>Dragon Ball Super</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/op.jpg">
+                    <h3>One Piece</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/Naruto.jpg">
+                    <h3>Naruto</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/bleach.jpg">
+                    <h3>Bleach</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/aot.jpg">
+                    <h3>Attack on Titan</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/tensura.jpg">
+                    <h3>Tensura</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/rezero.jpg">
+                    <h3>ReZero</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/eits.jpg">
+                    <h3>Eminence in the Shadow</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/angel.jpg">
+                    <h3>The Angel Next Door...</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+
+                <a href="#">
+                    <img src="images/fragments.jpg">
+                    <h3>The Fragrant Flower...</h3>
+                </a>
+
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/mushoku.jpg">
+                    <h3>Mushoku Tensei</h3>
+                </a>
+            </section>
+
+             <section class="anime">
+                <a href="#">
+                    <img src="images/suzume.jpg">
+                    <h3>Suzume</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/voice.jpg">
+                    <h3>A Silent Voice</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/name.jpg">
+                    <h3>Your Name</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/wwy.jpg">
+                    <h3>Wheathering with you</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/sao.jpg">
+                    <h3>Sword Art Online</h3>
+                </a>
+            </section>
+
+             <section class="anime">
+                <a href="#">
+                    <img src="images/star.jpg">
+                    <h3>My Star</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/family.jpg">
+                    <h3>Spy x Family</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/revengers.jpg">
+                    <h3>Tokyo Revengers</h3>
+                </a>
+            </section>
+
+            <section class="anime">
+                <a href="#">
+                    <img src="images/clover.jpg">
+                    <h3>Black Clover</h3>
+                </a>
+            </section>
+
+        </div>
+
+        <div id="about">
+
+            <h1>About Me:</h1>
+            <address>
+                <strong>Name : </strong>Shaik Nagurbaba<br>
+                <strong>Branch:</strong> Computer Science and Engineering - Artificial Intelligence and Machine Learning <br>
+                <strong>Project:</strong> AnimeAura<br>
+                <p>
+                    Hello! I'm Shaik Nagurbaba, a 1st year Computer Science and Engineering student specializing in
+                    Artificial Intelligence and Machine Learning at Dr.RVR NRI Deemed to be University
+                    <br>
+                    I created AnimeAura as a small project to share my interest in anime and explore web
+                    development using HTML and CSS.
+                    <br>
+                    I enjoy watching anime, discovering new series and characters, and learning new
+                    technologies. AnimeAura is a place where I can combine my passion for anime with my
+                    journey into web development.
+                    <br>
+                    I created it with basic HTML and CSS, and I plan to improve it further and upload
+                    updates in the future as I learn more.
+                </p>
+            </address>
+
+        </div>
+
+        <div id="info">
+
+            <h1>Legal Information</h1>
+
+            <p>
+            AnimeAura is a personal and educational project created independently out of my personal interest in anime and web development. This website is <strong>not a piracy website</strong> and does not provide, host, or distribute pirated anime episodes, movies, or other copyrighted content.
+            </p>
+
+            <p>
+            AnimeAura is created for <strong>educational, personal, and entertainment purposes</strong>. The website is developed using my own ideas and basic HTML and CSS skills as part of my learning journey.
+            </p>
+
+            <p>
+            All anime titles, characters, logos, artwork, images, and other related intellectual property belong to their respective copyright owners. AnimeAura does not claim ownership of these properties.
+            </p>
+
+            <p>
+            If any copyrighted material is displayed on this website, it is used only for identification, reference, or fan-related purposes. No ownership of such material is claimed.
+            </p>
+
+            <p>
+            This website is not affiliated with, sponsored by, or officially associated with any anime studio, publisher, production company, or copyright holder unless explicitly stated.
+            </p>
+
+        </div>
+
+    </body>
+
+</html>
